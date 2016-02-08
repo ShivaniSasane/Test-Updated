@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>
+		Test Bootstrap
+		</title>
+		<script src="js/validate.js"></script>
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+		<script type="text/javascript" src="EventHelpers.js"></script>
+		<script type="text/javascript" src="config-2.0.js"></script>
+		<script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+		<script type='text/javascript' src="js/firebaseIndex.js"> </script>			
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/boot.css">
+	</head>
+	
+	<body>
+		<div class="container-fluid">
+			<div class="color row">
+				<div class="col-sm-12 text-center" >				
+					<h1>SEARS HOLDINGS</h1>
+					<h1>INDIA</h1>
+				</div>
+			</div>
+					
+			<div class="row containerColor">
+				<div class="col-sm-12 text-justify">
+					<div class="col-sm-5">
+						<div class="row">
+							<div class="col-sm-12 text-center padding">
+								<img src="img/sears2.jpg" alt="Sears image" height="200" width="400"/>	
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-sm-12">
+								Contrary to popular belief, Lorem Ipsum is not simply random text. 
+								It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+								Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
+								
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-sm-12 text-center padding">
+								<img src="img/sears1.jpg" alt="Sears image" height="200" width="400"/>	
+							</div>
+						</div>
+						
+						<div class="row padding1">
+							<div class="col-sm-12">
+								Contrary to popular belief, Lorem Ipsum is not simply random text. 
+								It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+								Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur. 
+								
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-7">
+						<div class="row">
+							<div class="col-sm-12">
+								<h1 align="center">Latest News</h1>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-sm-12 col-xs-12 text-center margin border1">
+								<div id="1">
+								</div>
+			
+								<div id="2" class="truncate">
+								</div>
+								
+								<a href="aNewPage1.html#p1" onclick="myFunction(x)" style="float:right">Read more</a>		
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-sm-12 col-xs-12 text-center margin border1">
+								<div id="3">
+								</div>
+			
+								<div id="4" class="truncate">
+								</div>
+								
+								<a href="aNewPage1.html#p2" onclick="myFunction(x)" style="float:right">Read more</a>		
+							</div>
+						</div>
+					
+						<div class="row">
+							<div class="col-sm-12 col-xs-12 text-center margin border1">
+								<div id="5">
+								</div>
+			
+								<div id="6" class="truncate">
+								</div>
+								
+								<a href="aNewPage1.html#p3" onclick="myFunction(x)" style="float:right">Read more</a>		
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-12 col-xs-12 text-center margin border1">
+								<div id="7">
+								</div>
+			
+								<div id="8" class="truncate">
+								</div>
+								
+								<a href="aNewPage1.html#p4" onclick="myFunction(x)" style="float:right">Read more</a>		
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="row footer">	
+				<div class="col-sm-7 col-md-6 col-lg-6">
+					<div class="row">
+						<div class="col-sm-12">
+							<h3 class="glyphicon glyphicon-home"> Sears Address:</h3>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-12 col-xs-12 col-md-12 " > <b>Pune office:</b> Sears IT and Management Services India,
+							EON Free Zone, 
+							<br>Cluster C,Wing 2, 7th Floor,
+							<br> MIDC Kharadi Knowledge Park,
+							<br>Pune 411 014.
+						</div>					
+					</div>
+					<br>
+										
+					<div class="row">
+						<div class="col-sm-12 col-xs-12 col-md-12 "><b> Bangalore office:</b> Sears IT and Management Services Pvt. Ltd., 7th Floor,<br> 
+							Tower 2, 2B, Embassy Tech Village,<br>
+							Near New Horizon College, Devarabisanahalli,<br>
+							Bengaluru – 560103 Karnataka India.
+						</div>								
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="glyphicon glyphicon-earphone"> </div>   020 6730 8512
+						</div>
+					</div>					
+				</div>			
+				
+				<div class="col-sm-5  col-md-6 col-lg-6">
+					<div class="row">
+						<form name="fname" onsubmit="return formValidation()">												
+								<div class="col-sm-12">
+									<h3>Email Message:</h3>	
+								</div>													
+								<div class="form-group col-sm-12">
+									Name:<input type="text" name="uname"  id="uname" class="form-control"/>
+								</div>
+								
+								<div class="form-group col-sm-12">
+									Email:<input type="text" name="email"  id="email" class="form-control" />
+								</div>
+								
+								<div class="form-group col-sm-12">
+									Message: <br><textarea  name="msg" id="msg" class="form-control" ></textarea>
+								</div>
+								<div class="form-group col-sm-12">
+									<input type=submit value="Submit" />
+								</div>
+								<div class="form-group col-sm-12">
+									<p id="output" class="col-sm-12"></p>
+								</div>							
+						</form>
+					</div>
+				</div> <!--col 5-->
+			</div>	<!--footer end-->			
+		</div>	<!--container end-->		
+	</body>
+	
+</html>

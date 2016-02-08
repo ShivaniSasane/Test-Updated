@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>
+		Test
+		</title>
+		<link rel="stylesheet" type="text/css" href="css/column.css">
+		<script src="js/validate.js"></script>
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+		<script type="text/javascript" src="EventHelpers.js"></script>
+		<script type="text/javascript" src="config-2.0.js"></script>
+
+		<script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+
+		<script type='text/javascript' src="js/firebaseIndex.js"> </script>
+		
+	
+	</head>
+	<body>
+		<div class="header">				
+			<h1 align="center">SEARS HOLDINGS</h1>
+			<h1 align="center">INDIA</h1>
+		</div>
+		
+		<div class="container" >
+			<div class="left" >
+				<div class="i1 padding1" >
+					<center><img src="img/sears1.jpg" alt="no image" height="150" width="300" />         </center>
+						Sears officially Sears, Roebuck & Company is an American chain of department stores. 
+						The company was founded by Richard Warren Sears and Alvah Curtis Roebuck in 1886; it was previously based
+						in the Sears Tower in Chicago, and is currently headquartered in Hoffman Estates, Illinois. 
+				</div>
+				<div class="i1 padding1">
+				  <div style="align:center">
+					<center><img src="img/sears2.jpg" alt="no image" height="150" width="300" />         </center>
+						The company was bought by the American discount store chain Kmart in 2005, which was in bankruptcy at the time and renamed itself Sears Holdings upon completion of the merger. 
+						It is the fifth-largest American department store company by sales as of October 2013 behind Walmart, Target, Best Buy, and Home Depot.
+				  </div>
+				</div>
+			</div>
+
+			<div class="right">
+				<h1 align="center">Latest News</h1>
+				<div class="padding1 border1">
+					<div id="1">
+					</div>
+	
+					<div id="2" class="truncate">
+					</div>
+					<a href="view/newPage.html#p1" onclick="myFunction(x)" style="float:right">Read more</a>
+				</div>
+				
+				<div class="padding1 border1" >
+					<div id="3">
+					</div>
+					
+					<div id="4" class="truncate">
+					</div>
+					<a href="view/newPage.html#p2" onclick="myFunction(x)" style="float:right">Read more</a>	
+				</div>
+				
+				<div class="padding1 border1" >
+					<div id="5">
+					</div>
+					
+					<div id="6" class="truncate">					
+					</div>
+					<a href="view/newPage.html#p3" onclick="myFunction(x)" style="float:right">Read more</a>
+				</div>
+				
+				<div class="padding1 border1" >
+					<div id="7">
+					</div>
+					
+					<div id="8" class="truncate">					
+					</div>
+					<a href="view/newPage.html#p4" onclick="myFunction(x)" style="float:right">Read more</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div class=" footer">
+				<span class="l1">
+					<font color="black">
+						<div >
+							<h3>Sears Address:</h3>
+						</div>
+
+						<div >
+							<i class="fa fa-home fa-2x"></i> Address: SEARS IT and Management Services India,
+							<br> EON Free Zone, Cluster C,Wing 2, 7th Floor,
+							<br> MIDC Kharadi Knowledge Park,
+							<br>Pune 411 014.
+						</div>
+						<br>
+						<div >
+							<i class="fa fa-phone fa-2x"></i> +91-9876543210
+						</div>
+					</font>
+				</span>
+			
+
+				<span class="r1">					
+					<form name="fname" onsubmit="return formValidation()">
+						<font color="black" width="auto">
+							<h4>Feedback:</h4>						
+							Name:<input type="text" name="uname"  id="uname" size="40"/><br><br>
+							Email:<input type="text" name="email"  id="email" size="40" /><br><br>
+							Message : <br><textarea rows="4" cols="50" name="msg" id="msg" ></textarea><br>
+							<input type=submit value="Submit" />
+							<p id="output"></p>
+						</font>
+					</form>
+				</span>
+		</div>
+
+	</body>
+</html>

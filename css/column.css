@@ -1,0 +1,150 @@
+body{
+	font-family: 'Vollkorn', serif;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header{
+	border:1px solid skyblue;
+	background-color: skyblue;
+	height:150px;
+	width:100%;
+}
+
+.footer{
+	clear:both;
+	background-color: skyblue;
+	width:100%; 
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+
+.container{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	background-color: white; 
+}
+
+.left{
+	flex-grow:1;
+	margin:16px 20px 16px 20px;
+	height:360; 
+	width: 30%;   
+	background-color: lightblue; 
+	margin:10px;
+	padding:10px;
+	float:left;
+}
+
+.right{
+	flex-grow:1;
+	width: 50%;	
+	height: 30%;
+	background-color: white; 
+	margin:10px;
+	padding:10px;
+	float:left;
+}
+
+
+
+.padding1{
+	padding:20px;
+}
+.paddingLeft{
+
+	padding-left:50px;
+}
+
+
+.l1{
+	flex-grow:1;
+	margin:16px 20px 16px 20px;
+	height:150px; 
+	width: 40%;		
+	margin:10px;
+	padding:10px;
+	float:left;
+}
+
+.r1{
+	flex-grow:1;
+	width: 50%;
+	height: 50%; 
+	margin:10px;
+	padding:10px;
+	float:left;
+}
+
+.border1{
+	border:1px solid black;  
+	border-radius: 20px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+	margin:20px;
+}	
+
+
+@media screen and (max-width: 900px) {
+	.left, .right{
+		width: 70%;	//60
+		margin-left:20px;
+	}
+} 
+
+@media screen and (max-width: 740px) {
+	.left, .right{
+		clear:both;
+		padding:20px;
+		width: 60%;	//50	
+		margin-left:20px;
+	}
+} 
+
+
+
+
+
+@media screen and (max-width: 900px) {
+	.l1, .r1{
+		width: 60%;	
+		margin-left:20px;
+	}
+} 
+
+@media screen and (max-width: 740px) {
+	.l1, .r1{
+		clear:both;
+		padding:20px;
+		width: 50%;	
+		margin-left:20px;
+	}
+} 
+
+
+@media screen and (max-width: 900px) {
+	.i1{
+		width: auto;	
+		margin-left:20px;
+	}
+} 
+
+@media screen and (max-width: 740px) {
+	.i1{
+		clear:both;
+		padding:20px;
+		width: auto;	
+		margin-left:20px;
+	}
+} 

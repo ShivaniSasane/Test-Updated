@@ -1,0 +1,33 @@
+.truncate {
+  width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.border1{
+	border:1px solid black;  
+	border-radius: 20px;
+    padding: 10px; 
+	margin:10px;	
+}	
+.margin{
+	margin-right:20px;
+}
+.color{
+		background-color:#22313F;
+		color:white;
+}
+.footer{
+	background-color:#BFBFBF;
+	padding:20px;
+}
+.containerColor{
+	background-color:#EEEEEE;
+}
+.padding{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.padding1{
+	padding-bottom:15px;
+}
